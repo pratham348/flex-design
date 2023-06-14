@@ -2,14 +2,14 @@ import { Button } from "flowbite-react"
 
 const WayFromIdea = () => {
  return (
-  <div className="bg-White-900">
-   <div className="container">
-    <div className="grid gap-4 grid-rows-1 grid-cols-2 bg-Gray-bg  py-[62px] px-[98px] rounded-lg">
+  <div className="bg-White-900 py-[64px]">
+   <div className="container px-[78px]">
+    <div className="grid gap-4 grid-rows-1 grid-cols-2 bg-Gray-bg  pt-[62px] pb-[64px] px-[98px]  rounded-lg ">
      <div>
-      <p className="text-White-900 font-bold text-4xl">
+      <p className="text-White-900 font-bold text-4xl mb-[16px] leading-[44px]">
        The fastest way from idea to live site. Period.
       </p>
-      <p className="text-xl font-medium text-Gray-400">
+      <p className="text-xl font-medium text-Gray-400 leading-[20px]">
        Flex is a Small SaaS Business. Flex isn’t a traditional company.
       </p>
      </div>

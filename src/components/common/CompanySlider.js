@@ -24,6 +24,7 @@ const CompanySlider = () => {
  var settings = {
   dots: false,
   infinite: true,
+  arrows: false,
   speed: 500,
   slidesToShow: 5,
   slidesToScroll: 1
@@ -31,7 +32,7 @@ const CompanySlider = () => {
  return (
   <div>
    <div className="container">
-    <div className="px-[146px] py-[88px] text-center">
+    <div className="px-[65px] py-[88px] text-center">
      <p className="text-Gray-300 pb-[32px]">
       Join 4,000+ companies already growing
      </p>

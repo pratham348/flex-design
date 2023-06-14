@@ -9,7 +9,7 @@ const FooterBar = () => {
    <div className=" w-full text-center ">
     <div className="flex w-full items-center justify-center flex-col gap-8 sm:flex ">
      <Image alt="Logo" className="mr-3 h-6 sm:h-9" src={logo} />
-     <Footer.LinkGroup className="gap-12">
+     <Footer.LinkGroup className="gap-12 pb-[45px]">
       <Footer.Link href="/product">Product</Footer.Link>
       <Footer.Link href="/features">Features</Footer.Link>
       <Footer.Link href="/pricing">Pricing</Footer.Link>
@@ -23,7 +23,7 @@ const FooterBar = () => {
      by="Flex. All rights reserved."
      href="#"
      year={2022}
-     className="pt-[84px]"
+     className="pb-[84px] pt-[39px]"
     />
    </div>
   </Footer>

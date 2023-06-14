@@ -5,6 +5,11 @@ import HeroSection from "@/components/common/HeroSection"
 import CompanySlider from "@/components/common/CompanySlider"
 import Insight from "@/components/common/Insight"
 import WayFromIdea from "@/components/common/WayFromIdea"
+import GainInsight from "@/components/common/GainInsight"
+import PowerOfData from "@/components/common/PowerOfData"
+import MoreInsight from "@/components/common/MoreInsight"
+import StartYourApp from "@/components/common/StartYourApp"
+import Connect from "@/components/common/Connect"
 
 export default function Home() {
  return (
@@ -21,7 +26,12 @@ export default function Home() {
     <CompanySlider />
     <Insight />
     <WayFromIdea />
-    {/* <FooterBar /> */}
+    <GainInsight />
+    <PowerOfData />
+    <MoreInsight />
+    <StartYourApp />
+    <Connect />
+    <FooterBar />
    </main>
   </>
  )

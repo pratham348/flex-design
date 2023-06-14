@@ -53,8 +53,8 @@ const Insight = () => {
   }
  ]
  return (
-  <div className="bg-White-900">
-   <div className="container text-center">
+  <div className="bg-White-900 pb-[100px]">
+   <div className="container text-center px-[78px]">
     <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
      FEATURES
     </span>
@@ -66,12 +66,12 @@ const Insight = () => {
      capabilities, you can manage every aspect of your business in one secure
      platform.
     </p>
-    <div class="grid gap-4 grid-cols-3 grid-rows-2 ">
+    <div class="grid grid-cols-3 grid-rows-2 gap-8">
      {data?.map((e) => {
       return (
-       <div key={e.id} className="flex flex-col m-[32px]">
+       <div key={e.id} className="flex flex-col  justify-start">
         <div className="bg-primary self-center p-[20px] rounded-lg">
-         <Image src={e.image} alt="image" />
+         <Image src={e.image} alt="image" className="object-cover" />
         </div>
         <p className="font-bold	text-2xl text-Gray-900 mt-[24px]">{e.title}</p>
         <p className="text-base font-medium	 text-Gray-500 mt-[16px]">
