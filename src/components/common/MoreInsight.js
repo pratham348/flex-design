@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
 import MoreInsightTop from "@/assets/images/moreInsightTop.svg"
-import MoreInsightBottom from "@/assets/images/MoreInsightBottom.svg"
+import MoreInsightBottom from "@/assets/images/moreInsightBottom.svg"
 import MoreInsight1 from "@/assets/images/moreInsight1.svg"
 
 const MoreInsight = () => {
