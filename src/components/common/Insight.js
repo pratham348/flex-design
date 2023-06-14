@@ -1,10 +1,10 @@
 import React from "react"
-import mail from "../../assets/icons/mail.svg"
-import analytics from "../../assets/icons/analytics.svg"
-import management from "../../assets/icons/management.svg"
-import buildWebsite from "../../assets/icons/buildWebsite.svg"
-import multipleApps from "../../assets/icons/multipleApps.svg"
-import setup from "../../assets/icons/setup.svg"
+import mail from "@/assets/icons/mail.svg"
+import analytics from "@/assets/icons/analytics.svg"
+import management from "@/assets/icons/management.svg"
+import buildWebsite from "@/assets/icons/buildWebsite.svg"
+import multipleApps from "@/assets/icons/multipleApps.svg"
+import setup from "@/assets/icons/setup.svg"
 import Image from "next/image"
 
 const Insight = () => {
@@ -66,7 +66,7 @@ const Insight = () => {
      capabilities, you can manage every aspect of your business in one secure
      platform.
     </p>
-    <div class="grid grid-cols-3 grid-rows-2 gap-8">
+    <div className="grid grid-cols-3 grid-rows-2 gap-8">
      {data?.map((e) => {
       return (
        <div key={e.id} className="flex flex-col  justify-start">

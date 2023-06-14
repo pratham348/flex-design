@@ -1,14 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import React, { Fragment } from "react"
-import openEmail from "../../assets/icons/openEmail.svg"
-import phone from "../../assets/icons/phone.svg"
-import social from "../../assets/icons/social.svg"
-import fb from "../../assets/icons/fb.svg"
-import insta from "../../assets/icons/insta.svg"
-import twitter from "../../assets/icons/twitter.svg"
-import linkedin from "../../assets/icons/linkdin.svg"
-import map from "../../assets/images/map.svg"
+import openEmail from "@/assets/icons/openEmail.svg"
+import phone from "@/assets/icons/phone.svg"
+import social from "@/assets/icons/social.svg"
+import fb from "@/assets/icons/fb.svg"
+import insta from "@/assets/icons/insta.svg"
+import twitter from "@/assets/icons/twitter.svg"
+import linkedin from "@/assets/icons/linkdin.svg"
+import map from "@/assets/images/map.svg"
 
 const Connect = () => {
  return (

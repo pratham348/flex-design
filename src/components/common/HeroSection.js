@@ -1,9 +1,9 @@
 import { Button } from "flowbite-react"
 import React from "react"
-import topLeftImage from "../../assets/icons/left-top.svg"
-import bottomLeftImage from "../../assets/icons/left-bottom.svg"
-import topRightImage from "../../assets/icons/right-top.svg"
-import bottomRightImage from "../../assets/icons/right-bottom.svg"
+import topLeftImage from "@/assets/icons/left-top.svg"
+import bottomLeftImage from "@/assets/icons/left-bottom.svg"
+import topRightImage from "@/assets/icons/right-top.svg"
+import bottomRightImage from "@/assets/icons/right-bottom.svg"
 import Image from "next/image"
 
 const HeroSection = () => {
@@ -41,8 +41,8 @@ const HeroSection = () => {
        channels.
       </p>
       <div className="flex justify-center mb-[16px]">
-       <div class="relative mr-[16px]">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+       <div className="relative mr-[16px]">
+        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
          <svg
           width="24"
           height="24"
@@ -59,7 +59,7 @@ const HeroSection = () => {
         <input
          type="text"
          id="input-group-1"
-         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-Gray-900 focus:border-gray-50 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-Gray-900 focus:border-gray-50 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
          placeholder="Enter your work email"
         />
        </div>

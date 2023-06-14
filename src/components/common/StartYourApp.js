@@ -1,7 +1,7 @@
 import React from "react"
-import StartYourAppImage from "../../assets/images/startYourApp1.svg"
-import StartYourAppImageLeft from "../../assets/images/startYourAppLeft.svg"
-import StartYourAppImageRight from "../../assets/images/startYourAppRight.svg"
+import StartYourAppImage from "@/assets/images/startYourApp1.svg"
+import StartYourAppImageLeft from "@/assets/images/startYourAppLeft.svg"
+import StartYourAppImageRight from "@/assets/images/startYourAppRight.svg"
 import Image from "next/image"
 import { Button } from "flowbite-react"
 

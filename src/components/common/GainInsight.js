@@ -1,11 +1,11 @@
 import React from "react"
-import mail from "../../assets/icons/mail.svg"
-import buildWebsite from "../../assets/icons/buildWebsite.svg"
-import multipleApps from "../../assets/icons/multipleApps.svg"
-import gainMoreInsight from "../../assets/images/gainMoreInsight.svg"
+import mail from "@/assets/icons/mail.svg"
+import buildWebsite from "@/assets/icons/buildWebsite.svg"
+import multipleApps from "@/assets/icons/multipleApps.svg"
+import gainMoreInsight from "@/assets/images/gainMoreInsight.svg"
 import Image from "next/image"
-import fullWave from "../../assets/icons/fullWave.svg"
-import blueDots from "../../assets/icons/blueDots.svg"
+import fullWave from "@/assets/icons/fullWave.svg"
+import blueDots from "@/assets/icons/blueDots.svg"
 import { Button } from "flowbite-react"
 
 const GainInsight = () => {
@@ -51,7 +51,7 @@ const GainInsight = () => {
        you can manage every aspect of your business in one secure platform.
       </p>
      </div>
-     <div class="grid grid-cols-2 grid-rows-1 gap-x-52 mt-[80px]">
+     <div className="grid grid-cols-2 grid-rows-1 gap-x-52 mt-[80px]">
       <div className="mt-[66px]">
        {data.map((ele) => {
         return (
@@ -94,7 +94,7 @@ const GainInsight = () => {
      </div>
     </section>
     <section className="py-[88px]">
-     <div class="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
+     <div className="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
       <div>
        <div className="relative">
         <Image
@@ -136,7 +136,7 @@ const GainInsight = () => {
      </div>
     </section>
     <section className="py-[88px]">
-     <div class="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
+     <div className="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
       <div className="mt-[66px]">
        <p className="mb-[16px]">
         <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">

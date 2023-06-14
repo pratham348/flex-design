@@ -1,11 +1,11 @@
 import React from "react"
 import Slider from "react-slick"
-import logo1 from "../../assets/icons/logo1.svg"
-import logo2 from "../../assets/icons/logo2.svg"
-import logo3 from "../../assets/icons/logo3.svg"
-import logo4 from "../../assets/icons/logo4.svg"
-import logo5 from "../../assets/icons/logo5.svg"
-import BGWave from "../../assets/icons/BGWave.svg"
+import logo1 from "@/assets/icons/logo1.svg"
+import logo2 from "@/assets/icons/logo2.svg"
+import logo3 from "@/assets/icons/logo3.svg"
+import logo4 from "@/assets/icons/logo4.svg"
+import logo5 from "@/assets/icons/logo5.svg"
+import BGWave from "@/assets/icons/BGWave.svg"
 import Image from "next/image"
 
 const CompanySlider = () => {

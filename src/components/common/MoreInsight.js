@@ -1,8 +1,8 @@
 import Image from "next/image"
 import React from "react"
-import MoreInsightTop from "../../assets/images/moreInsightTop.svg"
-import MoreInsightBottom from "../../assets/images/MoreInsightBottom.svg"
-import MoreInsight1 from "../../assets/images/moreInsight1.svg"
+import MoreInsightTop from "@/assets/images/moreInsightTop.svg"
+import MoreInsightBottom from "@/assets/images/MoreInsightBottom.svg"
+import MoreInsight1 from "@/assets/images/moreInsight1.svg"
 
 const MoreInsight = () => {
  const data = [
@@ -48,7 +48,7 @@ const MoreInsight = () => {
    </div>
    <div className="bg-[#2a3342]">
     <div className="container pt-[107px] pb-[88px]">
-     <div class="grid grid-cols-2 grid-rows-1 gap-x-[32px] mb-[64px]">
+     <div className="grid grid-cols-2 grid-rows-1 gap-x-[32px] mb-[64px]">
       <div className="mt-[66px]">
        <p className="mb-[16px]">
         <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
@@ -68,7 +68,7 @@ const MoreInsight = () => {
        <Image src={MoreInsight1} alt="MoreInsight1" width={554} height={312} />
       </div>
      </div>
-     <div class="grid grid-cols-3 grid-rows-2 gap-16 ">
+     <div className="grid grid-cols-3 grid-rows-2 gap-16 ">
       {data.map((ele, key) => {
        return (
         <div key={key}>
