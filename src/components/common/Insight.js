@@ -54,27 +54,27 @@ const Insight = () => {
  ]
  return (
   <div className="bg-White-900 pb-[100px]">
-   <div className="container text-center px-[78px]">
-    <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
-     FEATURES
-    </span>
-    <p className="text-4xl	text-Gray-900 font-bold my-[16px]">
+   <div className="container text-center xxs:px-auto xxs:pt-[10px] lg:px-[78px]">
+    <span className="capsule">FEATURES</span>
+    <p className="xxs:text-2xl lg:text-4xl	text-Gray-900 font-bold my-[16px]">
      Gain more insight into how people use your
     </p>
-    <p className="text-xl font-medium text-Gray-500 px-[170px] mb-[48px]">
+    <p className="xxs:text-lg lg:text-xl font-medium text-Gray-500 xxs:px-auto lg:px-[170px] mb-[48px]">
      With our integrated CRM, project management, collaboration and invoicing
      capabilities, you can manage every aspect of your business in one secure
      platform.
     </p>
-    <div className="grid grid-cols-3 grid-rows-2 gap-8">
+    <div className="grid xxs:grid-cols-1 md:grid-cols-2  lg:grid-cols-3  lg:grid-rows-2 gap-8">
      {data?.map((e) => {
       return (
        <div key={e.id} className="flex flex-col  justify-start">
-        <div className="bg-primary self-center p-[20px] rounded-lg">
+        <div className="bg-primary self-center xxs:p-[10px] lg:p-[20px] rounded-lg">
          <Image src={e.image} alt="image" className="object-cover" />
         </div>
-        <p className="font-bold	text-2xl text-Gray-900 mt-[24px]">{e.title}</p>
-        <p className="text-base font-medium	 text-Gray-500 mt-[16px]">
+        <p className="font-bold	xxs:text-lg lg:text-2xl text-Gray-900 mt-[24px]">
+         {e.title}
+        </p>
+        <p className="text-base font-medium text-Gray-500 mt-[16px]">
          {e.description}
         </p>
        </div>

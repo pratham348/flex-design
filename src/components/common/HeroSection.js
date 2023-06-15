@@ -10,39 +10,42 @@ const HeroSection = () => {
  return (
   <div>
    <div className="container">
-    <div className="relative bg-Gray-900 text-center mx-[73px] rounded-xl px-[146px] py-[88px] overflow-hidden">
+    <div className="relative bg-Gray-900 text-center xxs:mx-auto lg:mx-[73px] rounded-xl xxs:px-[10px] md:px-[100px] lg:px-[146px] xxs:py-[80px] lg:py-[90px] overflow-hidden">
      <Image
-      className="absolute left-0 top-0"
+      className="absolute left-0 top-0 xxs:w-20 md:w-auto"
       src={topLeftImage}
       alt="topLeftImage"
      />
      <Image
-      className="absolute bottom-0 left-0"
+      className="absolute bottom-[20px] left-[25px] xxs:w-20 md:w-auto"
       src={bottomLeftImage}
       alt="bottomLeftImage"
      />
      <Image
-      className="absolute top-0 right-0"
+      className="absolute top-[20px] right-[25px] xxs:w-20 md:w-auto"
       src={topRightImage}
       alt="topRightImage"
      />
      <Image
-      className="absolute bottom-0 right-0"
+      className="absolute bottom-0 right-0 xxs:w-20 md:w-auto"
       src={bottomRightImage}
       alt="bottomRightImage"
      />
      <div>
-      <p className="text-White-900 text-[60px] font-bold leading-normal mb-[24px]">
+      <p>
+       <span className="capsule-dark">HEADER</span>
+      </p>
+      <p className="text-White-900 md:text-[60px] xxs:text-[30px] font-bold leading-normal mb-[24px]">
        A small business is only as good as its tools.{" "}
       </p>
-      <p className="text-Gray-400 text-[20px] text font-medium mb-[26px]">
+      <p className="text-Gray-400 md:text-[20px] xxs:text-[16px] text font-medium mb-[26px] ">
        We’re different. Flex is the only saas business platform that lets you
        run your business on one platform, seamlessly across all digital
        channels.
       </p>
-      <div className="flex justify-center mb-[16px]">
-       <div className="relative mr-[16px]">
-        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+      <div className="flex justify-center mb-[16px] md:flex-row xxs:flex-col xxs:items-center md:items-baseline ">
+       <div className="relative md:mr-[16px] xxs:mb-2 xxs:mr-0">
+        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
          <svg
           width="24"
           height="24"
@@ -59,15 +62,15 @@ const HeroSection = () => {
         <input
          type="text"
          id="input-group-1"
-         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-Gray-900 focus:border-gray-50 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-Gray-900 focus:border-gray-50 block w-full h-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
          placeholder="Enter your work email"
         />
        </div>
-       <Button className="bg-primary border-primary hover:bg-transparent hover:border-primary hover:text-primary">
+       <Button className="bg-primary border-primary hover:bg-transparent hover:border-primary hover:text-primary ">
         Sign Up
        </Button>
       </div>
-      <p className="text-Gray-400 text-[14px]  font-medium ">
+      <p className="text-Gray-400 md:text-[14px]  font-medium xxs:text-[12px]">
        Start your free 14-day trial today, no credit card required.
       </p>
      </div>

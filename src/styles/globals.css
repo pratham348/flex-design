@@ -8,3 +8,15 @@
   font-style: normal;
  }
 }
+
+@layer utilities {
+ .capsule {
+  @apply px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase;
+ }
+ .capsule-dark {
+  @apply px-[8px] py-[4px] text-White-900 bg-primary rounded-xl text-xs uppercase;
+ }
+ .slick-slide {
+  padding-inline: 64px;
+ }
+}

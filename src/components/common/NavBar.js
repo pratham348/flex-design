@@ -10,16 +10,16 @@ const NavBar = () => {
     <Navbar.Brand href="https://flowbite.com/">
      <Image alt="Logo" className="mr-3 h-6 sm:h-9" src={logo} />
     </Navbar.Brand>
-    <div className="flex md:order-2 gap-4 items-center">
+    <div className="flex  md:order-2 gap-4 items-center xxs:hidden md:flex">
      <a href="/log-in" className="text-base text-Gray hover:!text-primary">
       Log In
      </a>
      <Button className="bg-primary border-primary hover:bg-transparent hover:text-primary">
       Sign Up
      </Button>
-     <Navbar.Toggle />
     </div>
-    <Navbar.Collapse>
+    <Navbar.Toggle />
+    <Navbar.Collapse className="text-center">
      <Navbar.Link
       className="text-base text-Gray hover:!text-primary"
       href="/product"
@@ -44,6 +44,14 @@ const NavBar = () => {
      >
       Resources
      </Navbar.Link>
+     <div className="flex md:hidden md:order-2 gap-4 items-center flex-col align-top">
+      <a href="/log-in" className="text-base text-Gray hover:!text-primary">
+       Log In
+      </a>
+      <Button className="bg-primary border-primary hover:bg-transparent hover:text-primary">
+       Sign Up
+      </Button>
+     </div>
     </Navbar.Collapse>
    </Navbar>
   </div>

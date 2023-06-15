@@ -47,31 +47,35 @@ const MoreInsight = () => {
     />
    </div>
    <div className="bg-[#2a3342]">
-    <div className="container pt-[107px] pb-[88px]">
-     <div className="grid grid-cols-2 grid-rows-1 gap-x-[32px] mb-[64px]">
+    <div className="container md:pt-[107px] md:pb-[88px]">
+     <div className="grid xxs:grid-col-1 lg:grid-cols-2  lg:grid-rows-1 gap-x-[32px] mb-[64px] md:items-center ">
       <div className="mt-[66px]">
        <p className="mb-[16px]">
         <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
          HOW IT WORKS
         </span>
        </p>
-       <p className="text-[48px] font-bold text-White-900 leading-[60px] mb-[32px]">
+       <p className="xxs:text-2xl md:text-[48px] font-bold text-White-900  md:leading-[60px] mb-[32px] ">
         Gain more insight into how people use your
        </p>
-       <p className="text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
+       <p className="xxs:text-base md:text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
         With our integrated CRM, project management, collaboration and invoicing
         capabilities, <br />
         you can manage every aspect of your business in one secure platform.
        </p>
       </div>
-      <div>
-       <Image src={MoreInsight1} alt="MoreInsight1" width={554} height={312} />
+      <div className="mx-auto">
+       <Image
+        src={MoreInsight1}
+        alt="MoreInsight1"
+        className="xxs:w-auto lg:w-[554px] xxs:h-auto lg:h-[312px]"
+       />
       </div>
      </div>
-     <div className="grid grid-cols-3 grid-rows-2 gap-16 ">
+     <div className="grid xxs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-16 ">
       {data.map((ele, key) => {
        return (
-        <div key={key}>
+        <div key={key} className="xxs:text-center md:text-start">
          <p className="mb-[16px] ">
           <span className="px-[18px] py-[10px] bg-primary  rounded-3xl text-xl h-[48px] w-[48px] inline-block text-center">
            {key + 1}

@@ -34,34 +34,37 @@ const GainInsight = () => {
  ]
  return (
   <div className="bg-gradient-to-br from-transparent to-F7F8F9 pt-[90px]">
-   <div className="container px-[78px] ">
-    <section className="pb-[122px]">
+   <div className="container md:px-[78px] ">
+    <section>
      <div>
       <p className="mb-[16px]">
        <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
         FEATURES
        </span>
       </p>
-      <p className="text-[44px] font-bold text-Gray-900 leading-[44px] mb-[16px]">
+      <p className="xxs:text-2xl md:text-[44px] font-bold text-Gray-900 xxs:leading-8 md:leading-[44px] mb-[16px]">
        Gain more insight into how people use your
       </p>
-      <p className="text-xl font-medium text-Gray-500 leading-[30px]">
+      <p className="xxs:text-base md:text-xl font-medium text-Gray-500 leading-[30px]">
        With our integrated CRM, project management, collaboration and invoicing
        capabilities, <br />
        you can manage every aspect of your business in one secure platform.
       </p>
      </div>
-     <div className="grid grid-cols-2 grid-rows-1 gap-x-52 mt-[80px]">
-      <div className="mt-[66px]">
+     <div className="grid xxs:grid-cols-1 lg:grid-cols-2 grid-rows-1  lg:gap-x-6 xl:gap-x-52 xxs:mt-[20px] md:mt-[80px]">
+      <div className="mt-[66px] xxs:order-2 lg:order-1">
        {data.map((ele) => {
         return (
-         <div key={ele.id} className="flex mb-[40px] text-start">
+         <div
+          key={ele.id}
+          className="flex mb-[40px] text-start xxs:flex-col md:flex-row xxs:items-center"
+         >
           <div>
-           <div className="bg-primary self-center w-max p-[20px] rounded-lg mr-[24px]">
+           <div className="bg-primary self-center w-max xxs:p-[10px] md:p-[20px] rounded-lg md:mr-[24px]">
             <Image src={ele.image} alt="image" className="object-cover" />
            </div>
           </div>
-          <div className="mt-[12px]">
+          <div className="mt-[12px] xxs:text-center md:text-start">
            <p className="font-bold text-2xl text-Gray-900">{ele.title}</p>
            <p className="text-base font-medium text-Gray-500 mt-[14px]">
             {ele.description}
@@ -71,15 +74,15 @@ const GainInsight = () => {
         )
        })}
       </div>
-      <div>
+      <div className="xxs:order-1 lg:order-2 xxs:my-[40px]">
        <div className="relative">
         <Image
-         className="absolute left-[-33px] top-[-31px]"
+         className="absolute md:left-[-33px] xxs:left-[-13px] top-[-31px] xxs:w-20 md:w-auto"
          src={fullWave}
          alt="topLeftImage"
         />
         <Image
-         className="absolute bottom-[-33px] right-[-31px]"
+         className="absolute bottom-[-33px] md:right-[-31px] xxs:right-[-13px] xxs:w-20 md:w-auto"
          src={blueDots}
          alt="bottomRightImage"
         />
@@ -93,17 +96,17 @@ const GainInsight = () => {
       </div>
      </div>
     </section>
-    <section className="py-[88px]">
-     <div className="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
-      <div>
+    <section className="xxs:py-[10px] xl:py-[88px]">
+     <div className="grid xxs:grid-cols-1 lg:grid-cols-2 grid-rows-1 lg:gap-x-16 xl:gap-x-[130px] md:mt-[80px]">
+      <div className="">
        <div className="relative">
         <Image
-         className="absolute left-[-33px] top-[-31px]"
+         className="absolute md:left-[-33px] xxs:left-[-13px] top-[-31px] xxs:w-20 md:w-auto"
          src={fullWave}
          alt="topLeftImage"
         />
         <Image
-         className="absolute bottom-[-33px] right-[-31px]"
+         className="absolute bottom-[-33px] md:right-[-31px] xxs:right-[-13px] xxs:w-20 md:w-auto"
          src={blueDots}
          alt="bottomRightImage"
         />
@@ -115,55 +118,55 @@ const GainInsight = () => {
         />
        </div>
       </div>
-      <div className="mt-[66px]">
+      <div className="xl:mt-[66px] lg:mt-[10px] xxs:mt-[55px] xxs:text-center lg:text-start xxs:items-center">
        <p className="mb-[16px]">
         <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
          FEATURES
         </span>
        </p>
-       <p className="text-[48px] font-bold text-Gray-900 leading-[60px] mb-[32px]">
+       <p className="xxs:text-2xl md:text-[48px] font-bold text-Gray-900 xxs:leading-8 md:leading-[60px] mb-[32px]">
         Gain more insight into how people use your
        </p>
-       <p className="text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
+       <p className="xxs:text-base md:text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
         With our integrated CRM, project management, collaboration and invoicing
         capabilities, <br />
         you can manage every aspect of your business in one secure platform.
        </p>
-       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 mr-4 py-[14px] px-[28px] text-lg	font-medium	">
-        Get Started
+       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48  xl:mr-80 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
+        Get Started 2
        </Button>
       </div>
      </div>
     </section>
-    <section className="py-[88px]">
-     <div className="grid grid-cols-2 grid-rows-1 gap-x-[130px] mt-[80px]">
-      <div className="mt-[66px]">
+    <section className="xxs:py-[10px] xl:py-[88px]">
+     <div className="grid xxs:grid-cols-1 lg:grid-cols-2  lg:gap-x-8 xl:gap-x-[130px] md:mt-[40px] xl:mt-[80px]">
+      <div className="xl:mt-[66px] lg:my-0 xxs:my-[55px] xxs:text-center lg:text-start">
        <p className="mb-[16px]">
         <span className="px-[8px] py-[4px] bg-Primary-100 text-primary rounded-xl text-xs uppercase">
          FEATURES
         </span>
        </p>
-       <p className="text-[48px] font-bold text-Gray-900 leading-[60px] mb-[32px]">
+       <p className="xxs:text-2xl md:text-[48px] font-bold text-Gray-900 xxs:leading-8	md:leading-[60px] mb-[32px]">
         Gain more insight into how people use your
        </p>
-       <p className="text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
+       <p className="xxs:text-base md:text-xl font-medium text-Gray-500 leading-[30px] mb-[25px]">
         With our integrated CRM, project management, collaboration and invoicing
         capabilities, <br />
         you can manage every aspect of your business in one secure platform.
        </p>
-       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 mr-4 py-[14px] px-[28px] text-lg	font-medium	">
-        Get Started
+       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48  xl:mr-80 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
+        Get Started 3
        </Button>
       </div>
       <div>
        <div className="relative">
         <Image
-         className="absolute left-[-33px] top-[-31px]"
+         className="absolute md:left-[-33px] xxs:left-[-13px] top-[-31px] xxs:w-20 md:w-auto"
          src={fullWave}
          alt="topLeftImage"
         />
         <Image
-         className="absolute bottom-[-33px] right-[-31px]"
+         className="absolute bottom-[-33px] md:right-[-31px] xxs:right-[-13px] xxs:w-20 md:w-auto"
          src={blueDots}
          alt="bottomRightImage"
         />
