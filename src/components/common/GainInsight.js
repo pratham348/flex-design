@@ -132,8 +132,8 @@ const GainInsight = () => {
         capabilities, <br />
         you can manage every aspect of your business in one secure platform.
        </p>
-       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48  xl:mr-80 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
-        Get Started 2
+       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48 xxl:mx-0   xl:mr-80 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
+        Get Started
        </Button>
       </div>
      </div>
@@ -154,7 +154,7 @@ const GainInsight = () => {
         capabilities, <br />
         you can manage every aspect of your business in one secure platform.
        </p>
-       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48  xl:mr-80 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
+       <Button className="bg-primary border-primary hover:!bg-White-900 hover:text-Gray-800 xxs:mx-auto lg:mr-48  xl:mr-80 xxl:mx-0 xxs:py-[5px] md:py-[14px] xxs:px-[15px] md:px-[28px] text-lg font-medium	">
         Get Started 3
        </Button>
       </div>
